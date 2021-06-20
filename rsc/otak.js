@@ -7,6 +7,14 @@ const otak = (prefix, pushname) => {
 - Te amo botsito uwu
 - Dime onichan
 - La toca :3
+- Acm1pt
+- Yamete kudasai
+- hentai
+- Petardo
+- A
+- Pasa pack
+- Pete
+- Yamete
 
 
 _Ojito escribe tal como esta_
