@@ -1241,7 +1241,7 @@ async function starts() {
         const none = fs.readFileSync('./anishan/anime2.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Onichan`)) {
+	if (budy.startsWith(`Dime onichan`)) {
         const none = fs.readFileSync('./anishan/anime1.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
