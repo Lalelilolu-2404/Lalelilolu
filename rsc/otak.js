@@ -3,10 +3,10 @@ const otak = (prefix, pushname) => {
 
 
 - Quien es tu sempai botsito
-- Me gimes 7u7
+- Me gimes?
 - Te amo botsito uwu
 - Dime onichan
-- La toca 7w7
+- La toca :3
 
 
 _Ojito escribe tal como esta_
