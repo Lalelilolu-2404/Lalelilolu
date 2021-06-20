@@ -1225,6 +1225,46 @@ async function starts() {
 		if (budy.includes(`fua`)) {
                   reply(`Uhm zi, fuaaa!`)
                   }
+
+        if (budy.startsWith(`Acm1pt`)) {
+        const none = fs.readFileSync('./anishan/Acm1pt.mp3');
+		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+                  }					
+					
+        if (budy.startsWith(`Yamete kudasai`)) {
+        const none = fs.readFileSync('./anishan/Yamete kudasai.mp3');
+		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+                  }					
+	
+        if (budy.startsWith(`Hentai`)) {
+        const none = fs.readFileSync('./anishan/Hentai.mp3');
+		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+                  }					
+					
+        if (budy.startsWith(`Petardo`)) {
+        const none = fs.readFileSync('./anishan/Petardo.mp3');
+		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+                  }					
+        if (budy.startsWith(`A`)) {
+        const none = fs.readFileSync('./anishan/A.mp3');
+		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+                  }	
+        if (budy.startsWith(`a`)) {
+        const none = fs.readFileSync('./anishan/A.mp3');
+		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+                  }				
+        if (budy.startsWith(`Pasa pack`)) {
+        const none = fs.readFileSync('./anishan/Pasa pack.mp3');
+		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+                  }				
+        if (budy.startsWith(`Yamete`)) {
+        const none = fs.readFileSync('./anishan/Yamete.mp3');
+		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+                  }				
+        if (budy.startsWith(`Pete`)) {
+        const none = fs.readFileSync('./anishan/Pete.mp3');
+		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+                  }						
         if (budy.startsWith(`La toca :3`)) {
         const none = fs.readFileSync('./anishan/anime5.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
