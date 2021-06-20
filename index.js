@@ -1218,14 +1218,14 @@ async function starts() {
                   reply(`De nada padre`)
                   }
 
-		if (budy.includes(`hola`)) {
-                  reply(`Hola, apeteces de sexo?`)
+		if (budy.includes(`Hola`)) {
+                  reply(`Hola, apeteces de sexo? xd`)
                   }
                  
 		if (budy.includes(`fua`)) {
                   reply(`Uhm zi, fuaaa!`)
                   }
-        if (budy.startsWith(`La toca 7w7`)) {
+        if (budy.startsWith(`La toca :3`)) {
         const none = fs.readFileSync('./anishan/anime5.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
@@ -1233,7 +1233,7 @@ async function starts() {
         const none = fs.readFileSync('./anishan/anime4.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-	if (budy.startsWith(`Me gimes 7u7`)) {
+	if (budy.startsWith(`Me gimes?`)) {
         const none = fs.readFileSync('./anishan/anime3.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
