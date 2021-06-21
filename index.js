@@ -1185,7 +1185,7 @@ async function starts() {
 				        uptime = process.uptime()
                                         client.sendMessage(from, `Velocidad: *${latensi.toFixed(4)} _Second_*\nDevice: *Alcatel Pixi 4*\nRAM: *6Mb*\nData: *10GB*\nJaringan: *2G*\nStatus: *Bateria Baja*`, text, { quoted: mek})
                                         break
-                                case 'ttp':
+                                case 'attp':
 					if (args.length < 1) return reply('Y el texto flaco?')
 					ranp = getRandom('.png')
 					rano = getRandom('.webp')
@@ -1200,7 +1200,7 @@ async function starts() {
 					})
 					break
                 default:
-		if (budy.includes(`todo bien`)) {
+		if (budy.includes(`Todo bien`)) {
                   reply(`Si amigo todo bien, bien mal xd`)
                   }
 
@@ -1212,19 +1212,19 @@ async function starts() {
                   reply(`Te violaré mientras duermas xd`)
                   }
 
-		if (budy.includes(`bot gay`)) {
+		if (budy.includes(`Bot gay`)) {
                   reply(`Miren a este boludito`)
                   }
 
-		if (budy.includes(`gracias`)) {
-                  reply(`De nada padre`)
+		if (budy.includes(`Gracias`)) {
+                  reply(`De nada putit@`)
                   }
 
 		if (budy.includes(`Hola`)) {
                   reply(`Hola, apeteces de sexo? xd`)
                   }
                  
-		if (budy.includes(`fua`)) {
+		if (budy.includes(`Fua`)) {
                   reply(`Uhm zi, fuaaa!`)
                   }
 
