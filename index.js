@@ -17,7 +17,7 @@ const {
     Mimetype,
     rugaapi,
     GroupSettingChange
-} = require('@adiwajshing/Baileys')
+} = require('@adiwajshing/baileys')
 
 /******COMIENZO DE LA ENTRADA DEL ARCHIVO******/
 const { color, bgcolor } = require('./lib/color')
@@ -77,7 +77,7 @@ const { stalkmenu } = require('./database/menu/stalkmenu')
 const { wibumenu } = require('./database/menu/wibumenu')
 const { funmenu } = require('./database/menu/funmenu')
 const { informationmenu } = require('./database/menu/informationmenu')
-const { 18+menu } require('./database/menu/18+menu')
+
 const { ownermenu } require('./database/menu/ownermenu')
 const { othermenu } require('./database/menu/othermenu')*/
 /******FIN DE ENTRADA DEL MENÚ******/
