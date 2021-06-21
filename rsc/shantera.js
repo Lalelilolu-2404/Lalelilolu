@@ -2,39 +2,39 @@ const shantera = (prefix, pushname) => {
     return `*Palabras especificas para que el bot interactue con ustedes*
 
 
-- todo bien
-- Buenos dias
+- Todo bien
+- Buenos días
 - Buenas noches
-- bot gay
-- gracias
+- Bot gay
+- Gracias
 - Hola
-- fua
-- corte
-- gaspi buenos dias 
-- gaspi me saludas
-- gaspi y las minitas
-- gaspi todo bien
-- me quiero suicidar
-- gaspi ya no aguanto
-- contate algo bot
-- sexo
-- momento epico
-- el bot del orto no funciona
-- epicardo
-- insta de la minita
-- una mierda de bot
-- ultimo momento
-- nefasto
-- paraguayo
-- bot de mierda
-- venezolano
-- gaspi corte
-- ya me voy a dormir
-- calefon
-- apurate bot
-- un chino
-- no funciona
-- boliviano
+- Fua
+- Corte
+- Gaspi buenos dias 
+- Gaspi me saludas
+- Gaspi y las minitas
+- Gaspi todo bien
+- Me quiero suicidar
+- Gaspi ya no aguanto
+- Contate algo bot
+- Sexo
+- Momento epico
+- El bot del orto no funciona
+- Epicardo
+- Insta de la minita
+- Una mierda de bot
+- Ultimo momento
+- Nefasto
+- Paraguayo
+- Bot de mierda
+- Venezolano
+- Gaspi corte
+- Ya me voy a dormir
+- Calefon
+- Apurate bot
+- Un chino
+- No funciona
+- Boliviano
 
 
 _Ojito escribe tal y como esta en el mensaje_
