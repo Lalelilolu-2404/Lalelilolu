@@ -1,5 +1,5 @@
 {
-  "name": "shanbot",
+  "name": "Lalelilolu",
   "version": "0.0.2",
   "description": "Only termux",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "whatsapp",
     "bot"
   ],
-  "author": "Shan",
+  "author": "Lalelilolu",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.0",
@@ -38,10 +38,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shanduy/ShanBot.git"
+    "url": "git+https://github.com/Lalelilolu-2404/Lalelilolu.git"
   },
   "bugs": {
-    "url": "https://github.com/shanduy/ShanBot.git"
+    "url": "https://github.com/Lalelilolu-2404/Lalelilolu.git"
   },
-  "homepage": "https://github.com/shanduy/ShanBot#readme"
+  "homepage": "https://github.com/Lalelilolu-2404/Lalelilolu#readme"
 }
