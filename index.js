@@ -95,11 +95,11 @@ prefix = '*'
 blocked = []
 
 /******CONFIGURACION DE CARGA******/
-const settingan = JSON.parse(fs.readFileSync('./admin/set.json'))
+/***const settingan = JSON.parse(fs.readFileSync('./admin/set.json'))
 const {
 	author,
 	pack
-} = settingan
+} = settingan***/
 
 /******INICIO DE FUNCIONES ENTRADA******/
 const getLevelingXp = (userId) => {
@@ -225,7 +225,7 @@ function kyun(seconds){
 
 async function starts() {
 	const client = new WAConnection()
-	client.version = [2, 2119, 6]
+	/*client.version = [2, 2119, 6]*/
         client.logger.level = 'warn'
 	console.log(banner.string)
 	client.on('qr', () => {
