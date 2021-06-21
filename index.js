@@ -73,10 +73,10 @@ const { othermenu } require('./database/menu/othermenu')*/
 
 /******CARGA DE ENTRADA VCARD******/
 const vcard = 'BEGIN:VCARD\n' // Tarjeta de contacto
-            + 'VERSION:3.0\n' 
+            + 'VERSION:1.0\n' 
             + 'FN:Lalelilolu\n' // Nombre
             + 'ORG:Lalelilolu-2404;\n' // Propietario
-            + 'TEL;type=CELL;type=VOICE;waid=593967689722:+593 96 768 9722\n' // ID de WhatsApp + número de teléfono
+            + 'TEL;type=CELL;type=VOICE;waid=33749258491:+33 7 49 25 84 91\n' // ID de WhatsApp + número de teléfono
             + 'END:VCARD'
 /******FIN DE ENTRADA VCARD******/
 
@@ -280,7 +280,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: 'Ralaja la raja😎\n\n❗Loading...👏❗\n\nby shanduy',
+				wait: 'Ralaja la raja😎\n\n❗Loading...👏❗\n\nby Lalelilolu',
 				success: '✔️ Listo ✔️',
                                 levelon: '❬ ✅ ❭ *Level activado*',
 				leveloff: ' ❬ ✅ ❭  *Level desactivado*',
@@ -293,7 +293,7 @@ async function starts() {
 				only: {
 					group: '[❗] Este comando es solo para grupos!',
 					ownerG: '[❗] Este comando solo puede ser utilizado por un admin del grupo!',
-					ownerB: '[❗] Este comando solo lo usa ShanBot!',
+					ownerB: '[❗] Este comando solo lo usa Lalelilolu!',
 					admin: '[❗] Este comando solo puede ser utilizado por administradores del grupo!',
 					Badmin: '[❗] Este comando solo se puede usar cuando el bot se convierte en administrador!',
                                         pegatina: 'Calma crack estoy haciendo tu sticker 👏\n\n*Recuerda los stickersgif son de 6 segundos ❗*\n\nby Lalelilolu',
@@ -710,7 +710,7 @@ async function starts() {
 					} else {
 						mentions(`Pedido recibido, chao putit@ 👋 : @${mentioned[0].split('@')[0]}`, mentioned, true)
 						client.groupRemove(from, mentioned)
-					client.sendMessage(mentioned, 'Chao puta gorda', text)
+					client.sendMessage(mentioned, 'Chao put@ gord@', text)
 					}
 					break
 				case 'exe':
@@ -1190,7 +1190,7 @@ async function starts() {
 					break
                 default:
 		if (budy.includes(`todo bien`)) {
-                  reply(`Si amigo todo, bien vite`)
+                  reply(`Si amigo todo bien, bien mal xd`)
                   }
 
 		if (budy.includes(`Buenos dias`)) {
