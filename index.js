@@ -1034,7 +1034,7 @@ async function starts() {
                                                 reply('❌ *ERROR* ❌')
                                         }
 										break*/
-										case 'randomhentaio': 
+					case 'randomhentai': 
 						try {
 							if (!isNsfw) return reply('❌ *NSFW Desactivado* ❌')
 							res = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai?apikey=BotWeA`, {method: 'get'})
